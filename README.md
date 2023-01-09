@@ -1,0 +1,2 @@
+## NextJs microfrontend like example
+
