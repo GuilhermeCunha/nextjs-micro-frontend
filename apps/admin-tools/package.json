@@ -1,0 +1,40 @@
+{
+  "name": "@nextjs-micro-frontend/admin-tools",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cypress": "cypress open",
+    "cypress:ci": "cypress run --reporter json --reporter-options output=result.json",
+    "test:e2e": "start-server-and-test start http://localhost:3000 cypress:ci"
+  },
+  "dependencies": {
+    "@nextjs-micro-frontend/react-components": "*",
+    "@nextjs-micro-frontend/tailwind-config": "*",
+    "@sentry/nextjs": "^7.9.0",
+    "axios": "^0.27.2",
+    "clsx": "^1.2.1",
+    "next": "12.2.3",
+    "next-i18next": "^12.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zustand": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.6.3",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.8",
+    "cypress": "^10.4.0",
+    "dotenv": "^16.0.1",
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.3",
+    "postcss": "^8.4.14",
+    "start-server-and-test": "^1.14.0",
+    "tailwindcss": "^3.1.7",
+    "typescript": "4.7.4"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "shared": {
+    "requiredField": "This field is required"
+  },
+  "sidebar": {
+    "redirectGroups": "Redirect Groups"
+  },
+  "redirectGroups": "Redirect Groups",
+  "subtitle": "Track and manage your groups",
+  "table": {
+    "name": "Name",
+    "createdAt": "Created at",
+    "actions": {
+      "redirects": "Redirects",
+      "destinations": "Destinations",
+      "edit": "Edit",
+      "delete": "Delete",
+      "resetClicks": "Reset Clicks"
+    },
+    "footer": {
+      "showing": "showing",
+      "of": "of",
+      "to": "to",
+      "results": "results",
+      "previous": "previous",
+      "next": "next"
+    },
+    "header": {
+      "Create": "Create"
+    }
+  },
+  "modules": {
+    "redirects": {
+      "titlePrefix": "Redirects of group",
+      "descriptionPrefix": "A list of all the redirects for group",
+      "stats": {
+        "clicksInLast24h": "Clicks in the last 24h",
+        "clicksInLastMounth": "Clicks in the last month"
+      },
+      "table": {
+        "name": "Name",
+        "actions": {
+          "copyShareLink": "Copy share link"
+        }
+      }
+    }
+  },
+  "toast": {
+    "linkCopied": "link Copied Successfully"
+  },
+  "redirectGroupModal": {
+    "edit": "Update redirect Group",
+    "create": "Create Redirect Group"
+  },
+  "modalFooter": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "confirm": "Confirm"
+  },
+  "actionDelete": {
+    "title": "Delete Group",
+    "description": "Are you sure you want to delete this group? This action will permanently remove it "
+  },
+  "redirectModal": {
+    "editTitle": "Update Redirect",
+    "createTitle": "Create Redirect",
+    "strategy": "Strategy",
+    "description": "This will be the logic used to decide the destination.",
+    "inputClick": "Max clicks per destination",
+    "inputStrategy": "Strategy Type",
+    "inputType": "Redirect type",
+    "inputGoogleTagManagerId": "Google Tag Manager Id",
+    "options": {
+      "clicksPerDestination": "Clicks per destination",
+      "uniqueClicksPerDestination": "Unique clicks per destination",
+      "rotateDestinations": "Ratation",
+      "types": {
+        "direct": "Direct",
+        "advanced": "Advanced"
+      }
+    },
+    "deleteModal": {
+      "title": "Delete redirection",
+      "description": "Are you sure you want to delete this redirect ? This action will remove it permanently"
+    }
+  },
+  "destinationPage": {
+    "manageHeader": {
+      "title": "Destinations for",
+      "description": "All your custom link destinations"
+    },
+    "table": {
+      "clicks": "Clicks"
+    },
+    "deleteModal": {
+      "title": "Delete destination",
+      "description": "Are you sure you want to delete this destination ? This action will remove it permanently"
+    },
+    "resetClicksModal": {
+      "title": "Reset Clicks",
+      "description": "Are you sure you want to reset clicks of destination link? The number of clicks will be changed to zero. This action cannot be undone."
+    }
+  }
+}

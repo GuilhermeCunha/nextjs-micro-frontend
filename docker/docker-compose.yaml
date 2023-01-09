@@ -1,0 +1,44 @@
+version: "3"
+services:
+  nginx:
+    image: nginx:latest
+    container_name: container
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - app-network
+    depends_on:
+      - admin-tools
+      - user-tools
+
+  admin-tools:
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile.with-next
+      args:
+        - BUILD_CONTEXT=admin-tools
+    container_name: admin-tools
+    ports:
+      - "3000:3000"
+    env_file: "../apps/admin-tools/.env"
+    networks:
+      - app-network
+
+  user-tools:
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile.with-next
+      args:
+        - BUILD_CONTEXT=user-tools
+    container_name: user-tools
+    ports:
+      - "3001:3001"
+    env_file: "../apps/user-tools/.env"
+    networks:
+      - app-network
+
+networks:
+  app-network:

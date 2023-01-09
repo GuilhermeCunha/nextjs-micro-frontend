@@ -1,0 +1,8 @@
+{
+  "extends": "@nextjs-micro-frontend/tsconfig/react-library.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "declaration": true
+  }
+}

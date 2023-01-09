@@ -1,0 +1,108 @@
+{
+  "shared": {
+    "requiredField": "Este campo é obrigatório"
+  },
+  "sidebar": {
+    "redirectGroups": "Grupos de redirecionamento"
+  },
+  "redirectGroups": "Grupos de Redirecionamento",
+  "subtitle": "Acompanhe e gerencie seus grupos",
+  "table": {
+    "name": "Nome",
+    "createdAt": "Criado em",
+    "actions": {
+      "redirects": "Redirecionamentos",
+      "destinations": "Destinos",
+      "edit": "Editar",
+      "delete": "Excluir",
+      "resetClicks": "Resetar Cliques"
+    },
+    "footer": {
+      "showing": "Exibindo",
+      "of": "de",
+      "to": "a",
+      "results": "resultados",
+      "previous": "voltar",
+      "next": "próximo"
+    },
+    "header": {
+      "Create": "Criar"
+    }
+  },
+  "modules": {
+    "redirects": {
+      "titlePrefix": "Redirecionamentos do grupo",
+      "descriptionPrefix": "A lista de todos os redirecionamentos do grupo",
+      "stats": {
+        "clicksInLast24h": "Cliques nas últimas 24h",
+        "clicksInLastMounth": "Cliques no último mês"
+      },
+      "table": {
+        "name": "Nome",
+        "actions": {
+          "copyShareLink": "Copiar link"
+        }
+      }
+    }
+  },
+  "toast": {
+    "linkCopied": "Link Copiado com Sucesso"
+  },
+  "redirectGroupModal": {
+    "edit": "Editar Grupo",
+    "create": "Criar Grupo"
+  },
+  "modalFooter": {
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "confirm": "Confirmar"
+  },
+  "actionDelete": {
+    "title": "Deletar Grupo",
+    "description": "Tem a certeza de que quer eliminar o este grupo ? Está ação o removerá permanentemente "
+  },
+  "redirectModal": {
+    "editTitle": "Editar Redirecionamento",
+    "createTitle": "Criar Redirecionamento",
+    "strategy": "Estratégia",
+    "description": "Esta será a lógica utilizada para decidir o destino.",
+    "inputClick": "Máximo de clicks por destino",
+    "inputStrategy": "Tipo de estratégia",
+    "inputType": "Tipo de redirecionamento",
+    "inputGoogleTagManagerId": "Google Tag Manager Id",
+    "options": {
+      "clicksPerDestination": "Clicks por destino",
+      "uniqueClicksPerDestination": "Clicks únicos por destino",
+      "rotateDestinations": "Rotação",
+      "types": {
+        "direct": "Direto",
+        "advanced": "Avançado"
+      }
+    },
+    "deleteModal": {
+      "title": "Deletar redirecionamento",
+      "description": "Você tem certeza que deseja deletar este redirecionamento ? Está ação irá remove-lo permanentemente"
+    }
+  },
+  "destinationPage": {
+    "manageHeader": {
+      "title": "Destinos para",
+      "description": "Todos os destinos do seu link personalizado"
+    },
+    "table": {
+      "clicks": "Cliques"
+    },
+    "deleteModal": {
+      "title": "Deletar destino",
+      "description": "Você tem certeza que deseja deletar este destino ? Está ação irá remove-lo permanentemente"
+    },
+    "resetClicksModal": {
+      "title": "Resetar Cliques",
+      "description": "Tem a certeza de que quer redefinir o link de destino? O número de cliques será alterado para zero. Esta acção não pode ser desfeita."
+    },
+    "modal": {
+      "createTitle": "Criar Destino",
+      "updateTitle": "Editar Destino"
+    }
+  }
+}
