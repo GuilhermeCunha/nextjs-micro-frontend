@@ -4,7 +4,9 @@
   "scripts": {
     "build": "turbo run build",
     "start:admin-tools": "turbo run start --scope=@nextjs-micro-frontend/admin-tools",
-    "start:user-tools": "turbo run start --scope=@nextjs-micro-frontend/user-tools"
+    "dev:admin-tools": "turbo run dev --scope=@nextjs-micro-frontend/admin-tools",
+    "start:user-tools": "turbo run start --scope=@nextjs-micro-frontend/user-tools",
+    "dev:user-tools": "turbo run dev --scope=@nextjs-micro-frontend/user-tools"
   },
   "devDependencies": {
     "turbo": "^1.6.3"
